@@ -63,6 +63,12 @@
   );
 }
 
+@layer utilities {
+  .hover-snitap-bg:hover {
+    background-color: var(--snitap-sun);
+  }
+}
+
 .text-snitap-sun {
   color: var(--snitap-sun);
 }
