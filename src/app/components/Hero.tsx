@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="flex-1 space-y-6">
         <h1 className="text-4xl lg:text-6xl font-bold max-w-xl leading-tight">
           Snitap, sua vida mais{" "}
-          <span className="inline-block align-middle h-[4.6875rem] overflow-hidden -translate-y-[0.2rem]">
+          <span className="inline-block align-middle h-[4.6875rem] overflow-hidden translate-y-[0.7rem] md:-translate-y-[0.2rem]">
             <span className="block animate-slideUpFull">
               <span className="block h-[4.6875rem] text-snitap-sky-mid">
                 radical
@@ -26,7 +26,7 @@ export default function Hero() {
         </h1>
 
         {/* Botões */}
-        <div className="flex flex-wrap gap-8 mt-12">
+        <div className="flex flex-wrap gap-8 md:mt-12">
           <a
             href="#"
             className="flex items-center gap-3 px-12 py-6 bg-snitap-sun rounded-full shadow transition-transform hover:scale-110"
