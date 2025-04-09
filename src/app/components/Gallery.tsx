@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const galleryImages = [
-  "/assets/images/01.png",
-  "/assets/images/02.png",
-  "/assets/images/03.png",
-  "/assets/images/04.png",
+  "/assets/images/01.jpg",
+  "/assets/images/02.jpg",
+  "/assets/images/03.jpg",
+  "/assets/images/04.jpg",
 ];
 
 export default function Gallery() {
@@ -32,7 +32,7 @@ export default function Gallery() {
               alt={`Galeria ${i + 1}`}
               width={300}
               height={300}
-              className=" w-full md:h-90 h-64 "
+              className=" w-full md:h-full h-60 "
             />
             <figcaption className="flex items-center gap-2 px-4 py-3">
               <Image
