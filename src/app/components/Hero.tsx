@@ -72,7 +72,7 @@ export default function Hero() {
             alt="Patins"
             width={500}
             height={500}
-            className="absolute z-10 right-[1rem] md:right-[2%] md:w-[85%] max-w-[360px] sm:max-w-[400px]
+            className="absolute z-10 right-[1rem] md:right-[2%] md:w-[85%] max-w-[300px] sm:max-w-[400px]
  lg:w-full lg:max-w-none animate-slideIn"
           />
           <Image
